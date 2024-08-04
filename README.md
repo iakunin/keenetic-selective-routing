@@ -6,3 +6,9 @@
 Копия оригинального сообщения лежит в файле [forum-keenetic-original-message.md](forum-keenetic-original-message.md)
 * Также дополнено отсюда: https://gist.github.com/nukdokplex/884c7d2a213f5a10344738184c6816b2
 
+
+## Ипморт списка разблокировки в KVAS
+
+```shell
+cd /tmp && curl -O https://raw.githubusercontent.com/iakunin/keenetic-selective-routing/main/opt/etc/my_unblock_list.txt && kvas import my_unblock_list.txt
+```
