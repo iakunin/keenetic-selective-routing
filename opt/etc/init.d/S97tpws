@@ -1,5 +1,20 @@
 #!/bin/sh
 
+# See https://habr.com/ru/articles/833564/ for more details
+
+# opkg update
+# opkg install iptables ipset curl gzip grep git-http
+# cd /opt && mkdir git && cd git
+# git clone https://github.com/bol-van/zapret.git && cd zapret
+# ./install_bin.sh
+# cd /opt/etc/init.d/
+# vi S97tpws
+
+## <copy all the content below>
+
+# chmod +x /opt/etc/init.d/S97tpws
+# /opt/etc/init.d/S97tpws start
+
 SCRIPT=/opt/git/zapret/tpws/tpws
 PIDFILE=/var/run/tpws.pid
 HOSTLISTFILE=/opt/git/zapret/hostlist.txt
